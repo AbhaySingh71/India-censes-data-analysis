@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+#set page layout
 st.set_page_config(layout='wide')
 
 df = pd.read_csv('india.csv')
